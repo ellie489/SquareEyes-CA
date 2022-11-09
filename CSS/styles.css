@@ -12,6 +12,10 @@ body{
   max-width: 500px 100%;
   max-height: 300px;
 }
+
+h1 {
+    text-align: center;
+  }
 img {
     max-width: 100%;
     max-height: 100%;
@@ -151,9 +155,8 @@ h1,h2,h3 {
     flex-direction: column;
     margin: auto;
   }
-  h1 {
-    text-align: center;
-  }
+
+  
 
   .product-details {
     display: flex;
@@ -192,8 +195,12 @@ h1,h2,h3 {
         flex-direction: row;
 
     }
+    .slider {
+      overflow-x: visible;
+      width: 100%; 
+    }
     .slide {
-      display: block;
+      flex-shrink: 1;
     }
     .hamburger-menu {
       display: none
