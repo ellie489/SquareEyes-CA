@@ -195,8 +195,12 @@ h1,h2,h3 {
         flex-direction: row;
 
     }
+    .slider {
+      overflow-x: visible;
+      width: 100%; 
+    }
     .slide {
-      display: block;
+      flex-shrink: 1;
     }
     .hamburger-menu {
       display: none
