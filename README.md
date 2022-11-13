@@ -4,6 +4,8 @@ A simple overview of use/purpose.
 
 ## Description
 
+I decided to make som changes from the prototype, to improve user experience. I removed the hamburger menu and changed it to a block navigation for the desktop version.
+
 An in-depth paragraph about your project and overview of use.
 
 ## Getting Started
